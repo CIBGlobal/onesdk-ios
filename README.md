@@ -5,6 +5,9 @@ Adjust版本5.4.0
 
 未经授权, 禁止使用  
 
+## Version 1.0.3  
+修复支付方法跟android不同步问题  
+
 ## Version 1.0.2  
 修复支付属性未在OC项目导出bug  
 
