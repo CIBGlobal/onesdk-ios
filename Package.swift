@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/facebook/facebook-ios-sdk.git",
-            from: "18.0.0"),
+            from: "14.1.0"),
         .package(
             url: "https://github.com/google/GoogleSignIn-iOS.git",
             from: "8.0.0"),
@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "oneSDKBranch",
             url: "https://github.com/CIBGlobal/onesdk-ios/raw/main/oneSDK.xcframework.zip",
-            checksum: "6ad7e420b3b55423e6f5e9468b12ed3726c8ab66fc05be6fc2841925d38ebf6a"
+            checksum: "9f5044ef3051b0507141b0ca3601c67150213427af678bf1dcdbd030c42d1996"
         ),
         .target(
             name: "oneSDK",
