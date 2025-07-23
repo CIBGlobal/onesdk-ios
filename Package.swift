@@ -19,13 +19,12 @@ let package = Package(
         .binaryTarget(
             name: "oneSDKBranch",
             url: "https://github.com/CIBGlobal/onesdk-ios/raw/main/oneSDK.xcframework.zip",
-            checksum: "cfd703723d16d4be02653d6cfee7b191b5866a643421d357b8fdf753a2831878"
+            checksum: "8b984285404454808341e1c05d17052296b44fbda49164dc933589d2634cf4c9"
         ),
         .target(
             name: "oneSDK",
             dependencies: [
                 "oneSDKBranch",
-                // Facebook 依赖
                 .product(name: "FacebookAEM", package: "facebook-ios-sdk"),
                 .product(name: "FacebookBasics", package: "facebook-ios-sdk"),
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),

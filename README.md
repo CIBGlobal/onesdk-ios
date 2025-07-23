@@ -5,6 +5,9 @@ Adjust版本5.4.0
 
 未经授权, 禁止使用  
 
+## Version 1.0.6  
+本地做完测试, 首次封版本  
+
 ## Version 1.0.5  
 修正Adjust在Unity或者Tuanjie引擎中无法导入问题  
 
