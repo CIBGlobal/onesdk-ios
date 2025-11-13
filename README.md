@@ -5,6 +5,9 @@ Adjust版本5.4.0
 
 未经授权, 禁止使用  
 
+## Version 2.0.6  
+修复SDK掉单问题  
+
 ## Version 2.0.5  
 修复SDK掉单问题  
 
