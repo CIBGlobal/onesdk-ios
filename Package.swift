@@ -11,7 +11,7 @@ let package = Package(
             targets: ["oneSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/facebook/facebook-ios-sdk.git", from: "14.1.0"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk.git", from: "9.0.0"),
         .package(url: "https://github.com/google/GoogleSignIn-iOS.git", from: "8.0.0"),
         .package(url: "https://github.com/adjust/ios_sdk.git", from: "5.4.0")
     ],
@@ -19,14 +19,14 @@ let package = Package(
         .binaryTarget(
             name: "oneSDKBranch",
             url: "https://github.com/CIBGlobal/onesdk-ios/raw/main/oneSDK.xcframework.zip",
-            checksum: "c9ccd6f89d3bf2ed2156e7a11d7c320e44297790760809fcc1cfb0f4a203df58"
+            checksum: "12714fcd5c848602011e624a4a4ceb3ae735f67330a7fccc7151b6d2fd1a14a7"
         ),
         .target(
             name: "oneSDK",
             dependencies: [
                 "oneSDKBranch",
-                .product(name: "FacebookAEM", package: "facebook-ios-sdk"),
-                .product(name: "FacebookBasics", package: "facebook-ios-sdk"),
+//                .product(name: "FacebookAEM", package: "facebook-ios-sdk"),
+//                .product(name: "FacebookBasics", package: "facebook-ios-sdk"),
                 .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                 .product(name: "FacebookLogin", package: "facebook-ios-sdk"),
                 .product(name: "FacebookShare", package: "facebook-ios-sdk"),
