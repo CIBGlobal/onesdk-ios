@@ -1,9 +1,12 @@
 # 本SDK已集成Facebook登录、Google登录、苹果登录、CIB ID登录、Adjust广告植入  
-Facebook版本14.1.0  
+Facebook版本9.0.0  
 Google版本8.0.0  
 Adjust版本5.4.0  
 
 未经授权, 禁止使用  
+
+## Version 2.0.11  
+修改竖屏other login按钮位置  
 
 ## Version 2.0.10  
 修复bug  
