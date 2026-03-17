@@ -5,6 +5,9 @@ Adjust版本5.4.0
 
 未经授权, 禁止使用  
 
+## Version 2.0.12  
+打开switchLanguage开关  
+
 ## Version 2.0.11  
 修改竖屏other login按钮位置  
 
